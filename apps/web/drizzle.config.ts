@@ -20,4 +20,4 @@ export default {
   },
   out: "./migrations",
   strict: webEnv.NODE_ENV === "production",
-} satisfies Config;
+} as Config;
