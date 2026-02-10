@@ -47,9 +47,9 @@ export function Onboarding() {
 					<div className="space-y-5">
 						<div className="space-y-3">
 							<Title title="Welcome to OpenCut Beta" />
-							<Description description="This project is still under development. A lot of features are still missing. Check out the [forked repository by OneLevelStudio](https://github.com/OneLevelStudio/OpenCut)." />
+							<Description description="This project is still under development. A lot of features are still missing. Check out the forked repository by OneLevelStudio [here](https://github.com/OneLevelStudio/OpenCut). Have fun!" />
 						</div>
-						<NextButton onClick={handleNext}>Start using OpenCut</NextButton>
+						<NextButton onClick={handleClose}>Start using OpenCut</NextButton>
 					</div>
 				);
 			// case 0:
